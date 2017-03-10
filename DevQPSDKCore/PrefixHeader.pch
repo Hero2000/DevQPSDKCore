@@ -1,0 +1,22 @@
+//
+//  PrefixHeader.pch
+//  DevQPSDKCore
+//
+//  Created by LYZ on 16/4/29.
+//  Copyright © 2016年 LYZ. All rights reserved.
+//
+#ifdef __OBJC__
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#import <QPSDKCore/QPSDKCore.h>
+#import "QPPrefixHead.h"
+
+#define kQPAppKey @"20852440699791b"
+#define kQPAppSecret @"41f34f1481b945b3be43c89a291cd832"
+#define kQPDomain @"demoqpsdkcore.s.qupai.me"
+
+#endif /* PrefixHeader_pch */
+#endif
